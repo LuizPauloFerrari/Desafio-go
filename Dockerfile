@@ -10,4 +10,4 @@ FROM scratch
 
 COPY --from=builder /usr/src/app/main /
 
-CMD [ "./main" ]
+ENTRYPOINT [ "./main" ]
